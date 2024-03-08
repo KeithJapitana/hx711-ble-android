@@ -73,6 +73,9 @@ void loop() {
     } else if (receivedChar == 'b') { // If the received command is 'b' (blue)
       setColor(0, 0, 255); // Set RGB values to turn the LED blue
     }
+    else if (receivedChar == 'o') { // If the received command is 'b' (blue)
+      setColor(0, 0, 0); // Set RGB values to turn the LED blue
+    }
   }
 
   while (true) {
