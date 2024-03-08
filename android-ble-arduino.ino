@@ -50,4 +50,4 @@ void setColor(int redValue, int greenValue, int blueValue) {
   analogWrite(RED_PIN, redValue); // Set the intensity of the red LED
   analogWrite(GREEN_PIN, greenValue); // Set the intensity of the green LED
   analogWrite(BLUE_PIN, blueValue); // Set the intensity of the blue LED
-}   
+}
