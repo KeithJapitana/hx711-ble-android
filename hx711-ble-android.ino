@@ -14,7 +14,7 @@ HX711 scale;
 SoftwareSerial HC05(HC05_RX, HC05_TX);
 
 void setup() {
-  Serial.begin(9600);
+//   Serial.begin(9600);
   HC05.begin(9600); // Initialize HC-05 serial communication
   delay(1000); // Short delay after initializing HC-05
 
@@ -63,7 +63,7 @@ void loop() {
     char receivedChar = HC05.read();
 
     // Print the received character for debugging
-    Serial.println(receivedChar);
+    // Serial.println(receivedChar);
 
     // Check the received command
     if (receivedChar == 'r') { // If the received command is 'r' (red)
